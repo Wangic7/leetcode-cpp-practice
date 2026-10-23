@@ -127,7 +127,8 @@ public:
 
 解法三:桶排序
 vector<vector<int>> buckets(nums.size() + 1);//创建桶
-
+//平均时间复杂度O(N)
+//空间复杂度O(N).   N：输入数组 nums 的长度
 
 #include <vector>
 #include <unordered_map>
